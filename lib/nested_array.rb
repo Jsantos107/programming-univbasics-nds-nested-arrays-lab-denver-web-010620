@@ -39,8 +39,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
    shelf_rack = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   shelf_rack[1][1]
-  shelf_rack = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
-  shelf_rack[1][1]
+
   
 end
 
@@ -48,7 +47,7 @@ def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
-  value= "Onions"
+  value= "Onio"
   shelf_rack = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   shelf_rack [0][2]= value
   shelf_rack
